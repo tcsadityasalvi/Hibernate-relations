@@ -1,4 +1,4 @@
-package com.tcs.ManyToMany.JoinTable;
+package com.ManyToMany.JoinTable;
 
 import java.io.Serializable;
 import java.util.Set;

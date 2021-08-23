@@ -1,12 +1,12 @@
-package com.tcs.ManyToMany;
+package com.ManyToMany;
 
 import java.util.HashSet;
 import java.util.Set;
 
 import org.hibernate.Session;
 
-import com.tcs.ManyToMany.JoinTable.Reader;
-import com.tcs.ManyToMany.JoinTable.Subscription;
+import com.ManyToMany.JoinTable.Reader;
+import com.ManyToMany.JoinTable.Subscription;
 
 public class joinTable {
 	

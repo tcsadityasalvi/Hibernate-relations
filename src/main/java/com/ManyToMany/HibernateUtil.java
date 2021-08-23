@@ -1,4 +1,4 @@
-package com.tcs.ManyToMany;
+package com.ManyToMany;
 
 import java.io.File;
 
