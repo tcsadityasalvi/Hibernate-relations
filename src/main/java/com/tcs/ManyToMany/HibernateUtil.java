@@ -1,4 +1,4 @@
-package com.OneToMany;
+package com.tcs.ManyToMany;
 
 import java.io.File;
 
@@ -15,14 +15,14 @@ public class HibernateUtil {
         	Configuration config = new Configuration()
         			.configure(new File(HibernateUtil.class
         					.getClassLoader()
-        					.getResource("hibernate.cfg_OneToMany.xml")
+        					.getResource("hibernate.cfg_ManyToMany.xml")
         					.getFile()));
             return config.buildSessionFactory();
  
         }
         catch (Throwable ex) {
             // Make sure you log the exception, as it might be swallowed
-           // System.err.println("Initial SessionFactory creation failed." + ex);
+            //System.err.println("Initial SessionFactory creation failed." + ex);
             throw new ExceptionInInitializerError(ex);
         }
     }
