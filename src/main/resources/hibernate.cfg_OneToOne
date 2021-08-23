@@ -15,6 +15,10 @@
         
         <mapping class="com.OneToOne.DataTransfer.PrimaryKey.Employee"/>
         <mapping class="com.OneToOne.DataTransfer.PrimaryKey.Account"/>
+        <mapping class="com.OneToOne.DataTransfer.ForeignKey.Account"/>
+        <mapping class="com.OneToOne.DataTransfer.ForeignKey.Employee"/>
+        
+        
        
     </session-factory>
 </hibernate-configuration>
